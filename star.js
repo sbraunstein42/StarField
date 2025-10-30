@@ -10,11 +10,11 @@ export class Star {
     }
 
     draw(pencil) {
-        pencil.beginPath();
-        pencil.arc(95, 50, 40, 0, 2 * Math.PI);
-        pencil.fillStyle = "red";
-        pencil.fill();
-        pencil.closePath();
+        this.pencil.beginPath();
+        this.pencil.arc(95, 50, 40, 0, 2 * Math.PI);
+        this.pencil.fillStyle = "red";
+        this.pencil.fill();
+        this.pencil.closePath();
     }
 
 }
